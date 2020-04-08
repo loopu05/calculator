@@ -216,6 +216,7 @@ namespace WindowsFormsApp3
                 tmp2 = Convert.ToDouble(calc.Text);
                 calc.Text = Calc.DoMath(tmp1, tmp2) + "";
                 label1.Text = "";
+                Calc = null;
             }
 
         }
